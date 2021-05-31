@@ -6,8 +6,79 @@
 ### Naming
 - 카멜 표기법 사용
 
-#### Resource Naming
+### Resource Naming
 
+#### Layouts
+
+\(what)_(where\)
+
+- what : activity, fragment, view, item, etc..
+- where : main, setting, etc...
+
+##### example
+- acitivty_main : MainActivity의 뷰
+- framgent_detail : DetailFragment의 뷰
+- dialog_main : MainActivity에서 사용될 다이얼로그
+- item_location : LocationRecyclerview에 들어갈 아이템 뷰
+
+#### Strings
+
+\(where)_(description\)  
+- where : main, setting, all, etc..
+- description : title, content, etc...
+
+##### example
+- main_title : MainActivity의 title에 사용
+- all_content : 모든 뷰에서 content에 사용
+
+#### Drawables
+
+(where)\_(description\)_(size)
+- where : main, setting, all, etc...
+- description : info, alert, etc...
+- size : 24dp, 36dp, etc...
+
+##### example
+- main_info_24dp : MainActivity에서 사용될 24dp 크기의 info 이미지
+- all_alert_36dp : 모든 뷰에서 사용될 36dp 크기의 alert 이미지
+
+#### Styles
+  
+(where)\_(description\)_(etc)
+- where : main, setting, all, etc..
+- description: background, logo, etc...
+- etc: top, bottom, left, right, orange, black, etc..
+
+##### example
+- main_background_black : MainActivity에서 사용될 검정색 배경의 스타일
+- setting_logo_top : SettingActivty에서 위쪽에 위치한 로고의 스타일
+
+#### Colors
+palette와 color를 나눔 
+
+palette -> (what)_(where)_(description)
+- what : button, textview, etc..
+- where : main, setting, etc..
+- description : text, background, etc..
+
+##### example
+- button_main_text : MainActivity의 버튼에서 사용될 text의 색
+
+color -> (color)_(detail)
+- color : black, blue, orange, etc..
+- detail : light, dark, etc..
+
+##### example
+- black_dark : 검정색중에 어두운 색
+
+##### usage
+```xml
+// palette
+<color name="button_main_text">@color/black_dark</color>
+
+// color
+<color name="black_dar">#000000</color>
+```
 ----------------------------------------------
 ### Package
 자주 사용하는 패키지
@@ -22,7 +93,7 @@
 #### *factory*
 - 팩토리 패턴을 사용하기 위해 생성된 클래스들
 #### *model*
-- mvvm 사용시 model에 해당하는클래스들
+- mvvm 사용시 model에 해당하는 클래스들
 #### *network*
 - retrofit에서 사용할 인터페이스들
 #### *repository*
