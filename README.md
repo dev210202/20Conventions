@@ -56,7 +56,7 @@
 #### Colors
 palette와 color를 나눔 
 
-palette -> (what)_(where)_(description)
+palette -> (what)\_(where\)_(description)
 - what : button, textview, etc..
 - where : main, setting, etc..
 - description : text, background, etc..
