@@ -15,11 +15,23 @@
 - what : activity, fragment, view, item, etc..
 - where : main, setting, etc...
 
+
+
 ##### example
 - acitivty_main : MainActivity의 뷰
 - framgent_detail : DetailFragment의 뷰
 - dialog_main : MainActivity에서 사용될 다이얼로그
 - item_location : LocationRecyclerview에 들어갈 아이템 뷰
+
+#### IDs
+(what)\_(where\)_(description)
+
+- what : textview, button, etc...
+- where : main, setting, etc..
+- description : result, name, etc...
+
+##### example
+- textview_main_result : MainActivity의 결과값을 보여주는 textview
 
 #### Strings
 
