@@ -15,8 +15,6 @@
 - what : activity, fragment, view, item, etc..
 - where : main, setting, etc...
 
-
-
 ##### example
 - acitivty_main : MainActivity의 뷰
 - framgent_detail : DetailFragment의 뷰
@@ -55,7 +53,9 @@
 - all_alert_36dp : 모든 뷰에서 사용될 36dp 크기의 alert 이미지
 
 #### Styles
-  
+스타일에서 크기와 공백같이 디자인을 보면서 작업해야하는 것들은 아이템에서 제외한다.
+ex) android:layout_marginTop="16dp"
+
 (where)\_(description\)_(etc)
 - where : main, setting, all, etc..
 - description: background, logo, etc...
