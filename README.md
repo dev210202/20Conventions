@@ -43,7 +43,8 @@
 
 #### Drawables
 
-(where)\_(description\)_(size)
+(what)\_(where)\_(description\)_(size)
+- what: background, icon, etc..
 - where : main, setting, all, etc...
 - description : info, alert, etc...
 - size : 24dp, 36dp, etc...
