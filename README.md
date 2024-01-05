@@ -57,8 +57,8 @@
 스타일에서 크기와 공백같이 디자인을 보면서 작업해야하는 것들은 아이템에서 제외한다.
 ex) android:layout_marginTop="16dp"
 
-(where)\_(description\)_(etc)
-- where : main, setting, all, etc..
+(what)_(description\)_(etc)
+- what: tv, et, etc..
 - description: background, logo, etc...
 - etc: top, bottom, left, right, orange, black, etc..
 
